@@ -92,7 +92,7 @@ namespace Domain
             personsDataGridView.Refresh();
         }
 
-        private void btn_Rebuild_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             personsDataGridView.DataSource = b.Rebuild();
 
